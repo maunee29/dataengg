@@ -14,7 +14,7 @@ def printNamesAlphabetically(file_path):
  #      data = file.read()
   # return data
 
-  with open(, 'r') as file
-    line = open_file.readline()
+  #with open(, 'r') as file
+  #  line = open_file.readline()
 
-
+# This is a new comment
