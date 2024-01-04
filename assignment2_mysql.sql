@@ -1,4 +1,4 @@
--- This SQL has four tables: department table, employee table, employee address table, employee email and employee phone number table.
+-- This SQL has five tables: department table, employee table, employee address table, employee email and employee phone number table.
 -- Use INNER JOIN or CROSS JOIN queries to return data. 
 -- Employees can have multiple addresses, emails and phone numbers.
 
