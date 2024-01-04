@@ -101,7 +101,7 @@ insert into emp_email values(7, "stu@gmail.com");
 insert into emp_email values(5, "random@gmail.com");
 insert into emp_email values(4, "fun@gmail.com");
 
--- Insert emp_phonenum into address table
+-- Insert data into phone number table
 insert into emp_phonenum values(1, "987-324-5255", "345-635-3857", " ");
 insert into emp_phonenum values(2, "347-838-2737", "347-234-3838", "834-294-2884");
 insert into emp_phonenum values(3, "283-348-2938", "348-999-8489", "347-489-2948");
