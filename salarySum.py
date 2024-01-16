@@ -7,8 +7,10 @@ def salarysum(file,):
     # Split into lines
     lines = file.strip().split('\n')
     
-    # Make the first row the headers for the "table" and rest the data
+    # Make the first row the headers for the "table"
     header = lines[0].split(',')
+    # Print header to find out the index number of salary column
+    print('\n', (header))
     data = [line.split(',') for line in lines[1:]]
 
     # Calculate sum of salaries
@@ -36,9 +38,10 @@ if __name__ == "__main__":
         sumSalary_by_dept_name = salarysum(file)
 
     # Display result
-        print("Sum of salaries by department name: ")
+        print("\n", "Sum of salaries by department name: ", "\n")
         for dept_name, salary in sorted(sumSalary_by_dept_name.items()):
             print(f"{dept_name}: {salary}")
 
     except FileNotFoundError:
         print("Error! File not found")
+        exit(1)
